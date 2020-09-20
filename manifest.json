@@ -1,0 +1,12 @@
+{
+  "name": "Overscroll History Navigation Gestures",
+  "version": "1.0",
+  "description": "Navigate browser history with horizontal overscroll gestures",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "js": ["app.js"],
+      "matches": ["*://*/*"]
+    }
+  ]
+}
